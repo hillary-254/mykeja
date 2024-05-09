@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon /api/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.13.0"
+  }
+}
